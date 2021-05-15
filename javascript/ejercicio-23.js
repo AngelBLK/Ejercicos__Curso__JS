@@ -31,7 +31,7 @@ arrayParesImpares([1,2,3,4,5,6,7,8,9,0]);
 
 const separarParesImpares = (arr = undefined) =>{
     if(arr === undefined) return console.warn("No has ingresado un arreglo de números");
-    if(!(arr instanceof Array)) return console.warn(`El valor "${array}" NO es una areglo`);
+    if(!(arr instanceof Array)) return console.warn(`El valor "${arr}" NO es una areglo`);
     if(arr.length === 0) return console.warn("No has ingresado un arreglo");
     for (let num of arr) {
         if(typeof num !== "number") return console.error(`El valor "${num}", NO es un número`);
