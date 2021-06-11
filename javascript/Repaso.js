@@ -227,3 +227,6 @@ let str = "Miguel Angel Bohorquez Lopez ";
 
 let myArray = str.match(re);
 // console.log(myArray);
+
+
+
