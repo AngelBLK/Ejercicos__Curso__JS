@@ -1,4 +1,5 @@
 import hamburgerMenu from "./burger.js";
+import countdouwn from "./cuenta_regresiva.js";
 import { digitalClock, alarm } from "./reloj-audio.js";
 import {moveBall} from "./teclado.js";
 
@@ -8,7 +9,7 @@ d.addEventListener("DOMContentLoaded", (e) =>{
 
     digitalClock("#reloj", "#mostrar", "#ocultar");
     alarm("assets/zelda_cofre.mp3","#play", "#pause");
-    
+    countdouwn("countdown", "Aug 17, 2021 15:30:00", "Feliz Cumpleaños futuro desarrollador web 💻");
 });
 /** keydown: en cuento se presiona la tecla.
  *  keyup: en cuanto se levanta la tecla.
