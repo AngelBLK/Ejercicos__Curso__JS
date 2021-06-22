@@ -14,7 +14,7 @@ d.addEventListener("DOMContentLoaded", (e) =>{
     countdouwn("countdown", "Aug 17, 2021 15:30:00", "Feliz Cumpleaños futuro desarrollador web 💻");
 
     scrollTopButton(".scroll-top-btn");
-    darkTheme(".dark-theme-btn", "darkMode");
+    
 });
 /** keydown: en cuento se presiona la tecla.
  *  keyup: en cuanto se levanta la tecla.
@@ -23,5 +23,7 @@ d.addEventListener("DOMContentLoaded", (e) =>{
 d.addEventListener("keydown", e =>{
     //shortcuts(e);
     moveBall(e, ".ball", ".stage");
-})
+});
+
+darkTheme(".dark-theme-btn", "darkMode");
 
