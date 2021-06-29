@@ -9,6 +9,8 @@
     --second-modal-color: rgba(34, 34, 34, 0.85);
     --container-width: 1200px;
     --withe-color: rgb(250, 250, 250, .85);
+    --online-color: #1b5e20;
+    --offline-color: #b71c1c;
 }
 
 html{
@@ -202,4 +204,23 @@ img{
 
 .darkMode  .ball{
     background-color: blueviolet;
+}
+
+/* Network status*/
+
+.online,
+.offline{
+    position:sticky;
+    top: 0%;
+    z-index: 1000;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--online-color);
+    color: var(--withe-color);
+}
+
+.offline{
+    background-color: var(--offline-color);
 }

@@ -3,6 +3,7 @@ import hamburgerMenu from "./burger.js";
 import countdouwn from "./cuenta_regresiva.js";
 import darkTheme from "./dark-theme.js";
 import userDeviceInfo from "./deteccion_dispositivos.js";
+import networkStatus from "./deteccion_red.js";
 import responsiveMedia from "./objeto_responsive.js";
 import responsiveTester from "./prueba_responsive.js";
 import { digitalClock, alarm } from "./reloj-audio.js";
@@ -64,3 +65,4 @@ d.addEventListener("keydown", e =>{
 
 darkTheme(".dark-theme-btn", "darkMode");
 
+networkStatus();
